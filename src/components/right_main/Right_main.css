@@ -1,0 +1,39 @@
+.right_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4vh;
+}
+.main_container {
+  width: 70%;
+  height: 60vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.intro {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+.intro p {
+  font-weight: 700;
+}
+.mini_sections {
+  display: flex;
+  padding: 15px;
+  gap: 7px;
+}
+.mini_sections :nth-child(1) {
+  font-weight: 700;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 10px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  background-color: white;
+}

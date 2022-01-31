@@ -1,0 +1,99 @@
+.left_main {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 4vh;
+}
+.profile_header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 270px;
+  height: auto;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 41%;
+  border: 2px solid white;
+  padding: 1;
+}
+
+.logo_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  gap: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.desc_1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.desc_2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.para {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding: 13px;
+  border-bottom: 1px solid #ccc;
+}
+.end_header {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  gap: 5px;
+}
+
+.recent_section {
+  display: flex;
+  align-items: flex-start;
+  width: 270px;
+  height: 45vh;
+  background-color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 4vh;
+}
+.recent_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.recent_detail div {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+.recent_detail .bi_h {
+  display: flex;
+  flex-direction: column;
+  padding-left: 13px;
+}
